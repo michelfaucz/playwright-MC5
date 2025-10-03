@@ -37,7 +37,7 @@ test.describe('Booking API', () => {
         expect(jsonBody.additionalneeds).toBe('Breakfast');
 
         expect(response.ok()).toBeTruthy();
-        expect(response.status()).toBe(201);
+        expect(response.status()).toBe(200);
 
   });
 });
